@@ -36,7 +36,6 @@ describe('oma-ambulance-wl-list', () => {
     const wlList = page.rootInstance as OmaAmbulanceWlList;
     const expectedPatients = wlList?.waitingPatients?.length
 
-    const items = page.root.shadowRoot.querySelectorAll("md-list-item");
     expect(expectedPatients).toEqual(sampleEntries.length);
   });
 
