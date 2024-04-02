@@ -120,6 +120,8 @@ render() {
            {this.renderConditions()}
         </form>
 
+
+
         <div class="duration-slider">
           <span class="label">Predpokladaná doba trvania:&nbsp; </span>
           <span class="label">{this.duration}</span>
